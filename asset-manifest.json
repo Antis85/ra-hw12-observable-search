@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ra-hw12-observable-search/static/css/main.59ab1ccf.chunk.css",
+    "main.js": "/ra-hw12-observable-search/static/js/main.68521751.chunk.js",
+    "main.js.map": "/ra-hw12-observable-search/static/js/main.68521751.chunk.js.map",
+    "runtime-main.js": "/ra-hw12-observable-search/static/js/runtime-main.ed02fdac.js",
+    "runtime-main.js.map": "/ra-hw12-observable-search/static/js/runtime-main.ed02fdac.js.map",
+    "static/js/2.7555b262.chunk.js": "/ra-hw12-observable-search/static/js/2.7555b262.chunk.js",
+    "static/js/2.7555b262.chunk.js.map": "/ra-hw12-observable-search/static/js/2.7555b262.chunk.js.map",
+    "index.html": "/ra-hw12-observable-search/index.html",
+    "static/css/main.59ab1ccf.chunk.css.map": "/ra-hw12-observable-search/static/css/main.59ab1ccf.chunk.css.map",
+    "static/js/2.7555b262.chunk.js.LICENSE.txt": "/ra-hw12-observable-search/static/js/2.7555b262.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed02fdac.js",
+    "static/js/2.7555b262.chunk.js",
+    "static/css/main.59ab1ccf.chunk.css",
+    "static/js/main.68521751.chunk.js"
+  ]
+}
