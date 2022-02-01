@@ -38,9 +38,7 @@ export default function skillsReducer(state = initialState, action) {
       };
     case SEARCH_SKILLS_CANCELLED:
       console.log('SEARCH_SKILLS_CANCELLED_search ', state.search);
-      return {
-        state: initialState,
-      };
+      return { ...initialState };
     case CHANGE_SEARCH_FIELD:
       const { search } = action.payload;
       console.log('search_field: ', search);

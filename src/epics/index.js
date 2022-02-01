@@ -22,7 +22,7 @@ import {
 } from '../actions/actionCreators';
 import { of } from 'rxjs';
 
-export const changeSearchEpic = (action$, state$) =>
+export const changeSearchEpic = (action$, _state$) =>
   action$.pipe(
     ofType(CHANGE_SEARCH_FIELD),
     map((o) => o.payload.search.trim()),
@@ -31,7 +31,7 @@ export const changeSearchEpic = (action$, state$) =>
     map((o) => searchSkillsRequest(o))
   );
 
-export const searchSkillsEpic = (action$, state$) =>
+export const searchSkillsEpic = (action$, _state$) =>
   action$.pipe(
     ofType(SEARCH_SKILLS_REQUEST),
     map((o) => o.payload.search),
